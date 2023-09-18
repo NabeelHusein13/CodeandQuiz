@@ -1,6 +1,4 @@
-
-
-    var startBtn = document.getElementById("startBtn");
+var startBtn = document.getElementById("startBtn");
     var time = 60;
     var time_remaining = true;
     var time_start= false;
