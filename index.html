@@ -11,7 +11,7 @@
 
 <body>
     <header>
-    <!-- Display high score and timer on top left and right corners respectively -->
+   
     <section id = "score_keeper" style="display: none">
         <input type="button" value="View High Scores" onclick="view_high_scores()"></br>
         Score: <var id="score"> </var>
@@ -24,7 +24,7 @@
     </header>
 
 
-    <!-- Home Container with quiz rules and Start button -->
+   
     <container>
     <div id="homeContainer" class="none">
         <h1>Welcome to the Code Quiz!</h1>
@@ -36,10 +36,10 @@
     </div>
     </container>
 
-        <!-- QUIZ CONTAINER -->
+        
         <div id="quizContainer" style="display: none"> 
             <h2 id="questionHeading"></h2>
-            <!-- <div id="answerChoices"> -->
+         
                 <ul>
                     <div id="choices">
                         <button id="answerChoiceA"></button>
@@ -57,13 +57,13 @@
             </div>
 </body>
 
-<!-- RESULTS & HIGH SCORES CONTAINER -->
+
 <section id="AnswerResponse">
 </section>
 
 <div id= "game_over" style="display: none">
     <h2> Game Over</h2>
-    Your Score was: <var id="end_score"> </var>
+    Your Score Was: <var id="end_score"> </var>
     </br>
     Initials: <input type="text"  value="initials" id="initials">
     </br>

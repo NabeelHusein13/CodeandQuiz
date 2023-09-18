@@ -43,7 +43,7 @@ var questionsArray = [
     correctAnswer: 2
 }, 
 {
-    question: "Question: Which of the following can't be done with client-side JavaScript?",
+    question: "Question: Which of these can't be achieved with client-side JavaScript?",
     imageSrc: "",
     answerChoice: ["A) Sending a form's contents by email", "B) Validating a form", "C) Storing the form's contents to a database file on the server", "D) None of the above"],
     correctAnswer: 2
