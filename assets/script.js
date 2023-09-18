@@ -1,6 +1,5 @@
-// When user clicks the start button, then a timer starts and user is presented with a question
 
-    // Declare global variables 
+
     var startBtn = document.getElementById("startBtn");
     var time = 60;
     var time_remaining = true;
@@ -16,12 +15,12 @@
     var correctAnswer = document.getElementById("correctAnswer");    
     var high_scores= [];
     var output="";
-    // Set score = 0 at the start of the game 
+
     var score = 0;
-    // question index
+   
     let i = 0;
 
-// QUESTIONS ARRAY:
+
 
 var questionsArray = [
 {
